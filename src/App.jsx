@@ -2,6 +2,10 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import DashboardLayout from "./layouts/DashboardLayout";
 import Dashboard from "./pages/dashboard";
+import Projects from "./pages/dashboard/projects";
+import Tasks from "./pages/dashboard/tasks";
+import Services from "./pages/dashboard/services";
+import Notifications from "./pages/dashboard/notifications";
 
 function App() {
   const router = createBrowserRouter([
@@ -24,7 +28,10 @@ function App() {
       ),
       children: [
         { index: true, element: <Dashboard /> },
-        // { path: "/dashboard/profile", element: <Profile /> },
+        { path: "/dashboard/projects", element: <Projects /> },
+        { path: "/dashboard/tasks", element: <Tasks />},
+        { path: "/dashboard/services", element: <Services />},
+        { path: "/dashboard/notifications", element: <Notifications /> },
       ],
     },
   ]);
