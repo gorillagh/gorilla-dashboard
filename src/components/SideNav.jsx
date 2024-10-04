@@ -8,7 +8,7 @@ const SideNav = () => {
   const location = useLocation()
   const {pathname} = location
   return (
-    <div className="h-full bg-[#F4F4F4] border-2 border-[#b3afaf] rounded-xl shadow-2xl p-6 flex flex-col gap-4">
+    <div className="h-full bg-[#F4F4F4] border-2 border-[#b3afaf] rounded-xl shadow-xl p-6 flex flex-col gap-4">
       <div className="logo flex flex-col justify-center items-center gap-4">
         <img src={logo} alt="Logo" width={50} />
         <hr className="border-1 w-full border-gray-300" />

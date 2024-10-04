@@ -30,7 +30,7 @@ function App() {
         { index: true, element: <Dashboard /> },
         { path: "/dashboard/projects", element: <Projects /> },
         { path: "/dashboard/tasks", element: <Tasks />},
-        { path: "/dashboard/services", element: <Services />},
+        { path: "/dashboard/team", element: <Services />},
         { path: "/dashboard/notifications", element: <Notifications /> },
       ],
     },

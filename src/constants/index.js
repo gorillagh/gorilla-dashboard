@@ -14,7 +14,7 @@ import profile from "../assets/images/profile.jpg"
     { icon: MdDashboard, link: "Dashboard", path: "/dashboard" },
     { icon: FaProjectDiagram, link: "Projects", path: "/dashboard/projects" },
     { icon: FaTasks, link: "Task list", path: "/dashboard/tasks" },
-    { icon: GrUserWorker, link: "Services", path: "/dashboard/services" },
+    { icon: GrUserWorker, link: "Team", path: "/dashboard/team" },
     {
       icon: IoIosNotifications,
       link: "Notifications",
